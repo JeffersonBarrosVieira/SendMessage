@@ -38,6 +38,4 @@ io.on('connection', socket => {
     })
 })
 
-server.listen(PORT, () => {
-    console.log("Connected to port: " + PORT)
-})
+server.listen(3000, 'https://sendmessage.vercel.app')
